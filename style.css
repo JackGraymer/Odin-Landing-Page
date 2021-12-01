@@ -1,0 +1,174 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+.header{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    margin: 0px 15vw;
+    color: #f9faf8;
+    
+}
+
+.header p{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 16px;
+}
+
+.navlinks{
+    display: flex;
+    list-style: none;
+}
+
+.navlinks li {
+    padding: 0px 10px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15vw;
+
+}
+
+.section-one {
+    display: flex;
+    flex: auto;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 2rem;
+    max-height: 100%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 50%;
+    max-height: 100%;
+    align-items: flex-start;
+}
+.left button{
+    background-color: #3882f6;
+    color:#f9faf8 ;
+    border:none;
+    border-radius: 3px;
+    padding: 5px 2vw;
+}
+
+.left h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.right {
+    flex: 1 1 auto;
+    padding: 10px;
+    max-width: 50%;
+    
+}
+.right img{
+    max-width: 80%; 
+    border-radius: 2px;   
+}
+
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9faf8;
+}
+
+.cards {
+    display: flex;
+    
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #f9faf8;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+.card img{
+    max-width:100%;
+    border: 3px solid #3882f6;
+    border-radius:5%;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: #e5e7eb;
+    padding: 20px 40px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;    
+}
+
+.author {
+    justify-self: end;
+    align-self: flex-end;
+}
+
+.section-four {
+    background-color: #f9faf8;
+    padding: 8% 15%;
+    
+}
+
+.signup{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-radius: 10px;
+}
+
+.call {
+
+
+}
+
+.bottom-button {
+    display: flex;  
+    color:#f9faf8 ;
+    border-color: #f9faf8;
+    border-radius: 3px;
+    border:none;
+    padding: 50px 10px;  
+}
+
+.bottom-button button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 5px 2vw;
+    border-color: #f9faf8;
+    border-radius: 6px;
+    border:solid 2px;
+
+}
